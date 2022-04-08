@@ -3,8 +3,7 @@
         "outDir": "dist/js",
         "target": "ES6",
         "noEmitOnError": true,
-        "moduleResolution": "Node",
-        "lib": ["ES6"]
+        "noImplicitAny": true
     },
     "include": ["app/**/*"]
 }
